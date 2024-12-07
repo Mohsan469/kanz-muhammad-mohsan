@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanzway-screening-app", "kanzway-screening-app.csproj", "{6BC9182F-FA86-4331-95EA-715F55A04D9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanzway-screening-app-test", "..\kanzway-screening-app-test\kanzway-screening-app-test.csproj", "{D987906C-62D9-4CA4-A69F-3DFC8386B983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BC9182F-FA86-4331-95EA-715F55A04D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC9182F-FA86-4331-95EA-715F55A04D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC9182F-FA86-4331-95EA-715F55A04D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D987906C-62D9-4CA4-A69F-3DFC8386B983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D987906C-62D9-4CA4-A69F-3DFC8386B983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D987906C-62D9-4CA4-A69F-3DFC8386B983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D987906C-62D9-4CA4-A69F-3DFC8386B983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

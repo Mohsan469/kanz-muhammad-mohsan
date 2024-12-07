@@ -20,8 +20,6 @@ namespace kanzway_screening_app.Controllers
                 var numbers = Enumerable.Range(1, (int)number).ToList();
                 foreach (var item in numbers)
                 {
-                    list.Add(item.ToString());
-
                     if (item % 3 == 0 && item % 5 == 0)
                     {
                         list.Add("KanzWay");
@@ -33,6 +31,10 @@ namespace kanzway_screening_app.Controllers
                     else if (item % 5 == 0)
                     {
                         list.Add("Way");
+                    }
+                    else
+                    {
+                        list.Add(item.ToString());
                     }
                 }
                 return list;
