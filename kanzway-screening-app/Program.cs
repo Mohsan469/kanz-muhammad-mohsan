@@ -31,6 +31,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 
-log4net.Config.XmlConfigurator.Configure();
+log4net.Config.XmlConfigurator.Configure();//TO CREATE FILE LOG FILE DYNAMICALLY
 logger.log.Info("Application is starting...");
 app.Run();
