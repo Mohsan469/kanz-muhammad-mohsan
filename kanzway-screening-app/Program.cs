@@ -1,4 +1,12 @@
+using log4net.Config;
+using log4net;
+using kanzway_screening_app;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure log4net
+var loggerRepository = LogManager.GetRepository(System.Reflection.Assembly.GetEntryAssembly());
+XmlConfigurator.Configure(loggerRepository, new FileInfo("log4net.config"));
 
 // Add services to the container.
 
@@ -22,4 +30,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+log4net.Config.XmlConfigurator.Configure();
+logger.log.Info("Application is starting...");
 app.Run();
