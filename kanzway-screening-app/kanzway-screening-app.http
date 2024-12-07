@@ -1,0 +1,6 @@
+@kanzway_screening_app_HostAddress = http://localhost:5239
+
+GET {{kanzway_screening_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
